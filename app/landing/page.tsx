@@ -354,7 +354,6 @@ export default function LandingPage() {
                   <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-blue-600 smooth-transition group-hover:w-full"></span>
                 </a>
               ))}
-              <Button className="bg-blue-600 hover:bg-blue-700 smooth-hover smooth-scale">Start Free Trial</Button>
             </div>
 
             {/* Mobile menu button */}
@@ -384,9 +383,7 @@ export default function LandingPage() {
                     {item}
                   </a>
                 ))}
-                <Button className="bg-blue-600 hover:bg-blue-700 w-full smooth-hover smooth-scale">
-                  Start Free Trial
-                </Button>
+               
               </div>
             </div>
           )}
@@ -424,7 +421,7 @@ export default function LandingPage() {
                 monitor finances, and grow your business with powerful analytics.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
-                <Link href="/">
+                <Link href="/login">
                   <Button
                     size="lg"
                     className="bg-blue-600 hover:bg-blue-700 text-lg px-8 py-3 smooth-hover smooth-scale shadow-lg hover:shadow-xl"
